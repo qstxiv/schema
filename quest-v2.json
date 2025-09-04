@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://qstxiv.github.io/schema/quest-v1.json",
+  "$id": "https://qstxiv.github.io/schema/quest-v2.json",
   "title": "Questionable V1",
   "description": "A series of quest sequences",
   "type": "object",
   "properties": {
     "$schema": {
       "type": "string",
-      "const": "https://qstxiv.github.io/schema/quest-v1.json"
+      "const": "https://qstxiv.github.io/schema/quest-v2.json"
     },
     "Author": {
       "description": "Author of the quest sequence",
