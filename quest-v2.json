@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://qstxiv.github.io/schema/quest-v2.json",
-  "title": "Questionable V1",
+  "title": "Questionable V2",
   "description": "A series of quest sequences",
   "type": "object",
   "properties": {
