@@ -24,9 +24,6 @@
             "minimum": 0,
             "maximum": 15
           },
-          "Negative": {
-            "type": "boolean"
-          },
           "Mode": {
             "type": "string",
             "enum": [
