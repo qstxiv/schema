@@ -1008,7 +1008,7 @@
                   "fistbump",
                   "thavdance",
                   "golddance",
-                  "sundance",
+                  "sundropdance",
                   "battlestance",
                   "victorypose",
                   "backflip",
@@ -1018,6 +1018,7 @@
                   "haurchefant",
                   "easternstretch",
                   "easterndance",
+                  "pet",
                   "rangerpose1r",
                   "rangerpose2r",
                   "rangerpose3r",
@@ -1058,7 +1059,7 @@
                   "tremble",
                   "winded",
                   "aback",
-                  "greet",
+                  "greeting",
                   "boxstep",
                   "sidestep",
                   "ultima",
@@ -1176,10 +1177,7 @@
                   "gridaniangulp",
                   "uldahngulp",
                   "lominsangulp",
-                  "pen",
-                  "sundropdance",
-                  "pet",
-                  "greeting"
+                  "pen"
                 ]
               }
             }
