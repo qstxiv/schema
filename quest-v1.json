@@ -54,11 +54,8 @@
         },
         "Date": {
           "description": "The date and time this path was checked",
-          "format": "date-time",
-          "type": [
-            "string",
-            "null"
-          ]
+          "format": "date",
+          "type": "string"
         }
       }
     },
