@@ -1,13 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://qstxiv.github.io/schema/quest-v1.json",
-  "title": "Questionable V1",
+  "title": "Questionable",
   "description": "A series of quest sequences",
   "type": "object",
   "properties": {
     "$schema": {
-      "type": "string",
-      "const": "https://qstxiv.github.io/schema/quest-v1.json"
+      "type": "string"
     },
     "Author": {
       "description": "Author of the quest sequence",
@@ -33,7 +32,10 @@
     "SeasonalQuestExpiry": {
       "description": "If this is an seasonal (event) quest, the date and time (in UTC) when this quest should no longer be available",
       "format": "date-time",
-      "type": [ "string", "null" ]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "Comment": {
       "type": "string"
@@ -53,7 +55,10 @@
         "Date": {
           "description": "The date and time this path was checked",
           "format": "date-time",
-          "type": [ "string", "null" ]
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -558,7 +563,10 @@
               "SeasonalQuestExpiry": {
                 "description": "If this is an seasonal (event) quest, the date and time (in UTC) when this quest should no longer be available",
                 "format": "date-time",
-                "type": [ "string", "null" ]
+                "type": [
+                  "string",
+                  "null"
+                ]
               }
             }
           },
