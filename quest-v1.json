@@ -42,6 +42,21 @@
       "type": "string",
       "description": "Dev Comment (not visible in-game)"
     },
+    "LastChecked": {
+      "description": "If a quest path has been confirmed to be working, indicates the date of that check and who checked it",
+      "type": "object",
+      "properties": {
+        "Username": {
+          "description": "The username of the checker",
+          "type": "string"
+        },
+        "Date": {
+          "description": "The date and time this path was checked",
+          "format": "date-time",
+          "type": [ "string", "null" ]
+        }
+      }
+    },
     "QuestSequence": {
       "type": "array",
       "items": {
