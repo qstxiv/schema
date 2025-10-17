@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://qstxiv.github.io/schema/quest-v1.json",
-  "title": "Questionable",
+  "title": "Questionable V1",
   "description": "A series of quest sequences",
   "type": "object",
   "properties": {
@@ -32,10 +32,7 @@
     "SeasonalQuestExpiry": {
       "description": "If this is an seasonal (event) quest, the date and time (in UTC) when this quest should no longer be available",
       "format": "date-time",
-      "type": [
-        "string",
-        "null"
-      ]
+      "type": [ "string", "null" ]
     },
     "Comment": {
       "type": "string"
@@ -53,7 +50,7 @@
           "type": "string"
         },
         "Date": {
-          "description": "The date and time this path was checked",
+          "description": "The date this path was checked",
           "format": "date",
           "type": "string"
         }
@@ -560,10 +557,7 @@
               "SeasonalQuestExpiry": {
                 "description": "If this is an seasonal (event) quest, the date and time (in UTC) when this quest should no longer be available",
                 "format": "date-time",
-                "type": [
-                  "string",
-                  "null"
-                ]
+                "type": [ "string", "null" ]
               }
             }
           },
@@ -1359,6 +1353,8 @@
                   "Wasshoi",
                   "Shrouded Luminescence",
                   "Big Sneeze",
+                  "Trickster's Treat",
+                  "Treater's Trick",
                   "Duty Action I",
                   "Duty Action II"
                 ]
