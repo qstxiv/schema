@@ -166,6 +166,7 @@
             "Craft",
             "Gather",
             "Snipe",
+            "CreateGearset",
             "SwitchClass",
             "UnlockTaxiStand",
             "Instruction",
