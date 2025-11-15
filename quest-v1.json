@@ -167,6 +167,7 @@
             "Gather",
             "Snipe",
             "CreateGearset",
+            "UpdateGearset",
             "SwitchClass",
             "UnlockTaxiStand",
             "Instruction",
@@ -1889,6 +1890,23 @@
             "properties": {
               "InteractionType": {
                 "const": "CreateGearset"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "InteractionType": {
+                "const": "UpdateGearset"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "TargetClass": {
+                "$ref": "https://qstxiv.github.io/schema/common-classjob.json",
+                "description": "The class/job whose gearset should be updated. If not specified, updates the currently equipped gearset."
               }
             }
           }
