@@ -1381,7 +1381,6 @@
                   "Treater's Trick",
                   "Duty Action I",
                   "Duty Action II",
-                  "Dismount",
                   "FSHCast",
                   "FSHQuit"
                 ]
@@ -1882,6 +1881,15 @@
             "required": [
               "Comment"
             ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "InteractionType": {
+                "const": "CreateGearset"
+              }
+            }
           }
         },
         {
