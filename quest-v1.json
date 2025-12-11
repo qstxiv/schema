@@ -1386,8 +1386,7 @@
                   "Duty Action I",
                   "Duty Action II",
                   "FSHCast",
-                  "FSHQuit",
-				  "Dismount"
+                  "FSHQuit"
                 ]
               }
             },
