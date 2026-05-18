@@ -1835,10 +1835,7 @@
                 ]
               }
             },
-            "required": [
-              "ItemId",
-              "ItemCount"
-            ]
+            "required": []
           }
         },
         {
