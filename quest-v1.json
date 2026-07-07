@@ -461,7 +461,8 @@
                 "ExtraCondition": {
                   "type": "string",
                   "enum": [
-                    "SkipFreeFantasia"
+                    "SkipFreeFantasia",
+                    "CostaDelSol"
                   ]
                 }
               },
