@@ -474,7 +474,8 @@
                   "type": "string",
                   "enum": [
                     "SkipFreeFantasia",
-                    "CostaDelSol"
+                    "CostaDelSol",
+                    "NewGamePlus"
                   ]
                 }
               },
